@@ -50,7 +50,12 @@ footer{background:#101c35;color:white;text-align:center;padding:25px;margin-top:
 <div id="cartItems">Your cart is empty.</div>
 <h3>Total: <span id="cartTotal">SLE 0</span></h3>
 </section>
-
+<h2 style="text-align:center;color:#172744;padding:20px">
+Explore Our Products
+</h2>
+<p style="text-align:center;color:#777">
+Discover something you love at NOVAMART.
+</p>
 <section class="products" id="shop">
 <div class="product"><div class="emoji">👕</div><h3>Clothing</h3><p>Fashion for
 <p><strong>Price:</strong> Contact us for price</p> everyone</p><button class="buy" onclick="order('Clothing')">Order</button></div>
