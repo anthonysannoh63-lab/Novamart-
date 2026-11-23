@@ -74,6 +74,42 @@ document.querySelectorAll('.product').forEach(p=>{
 p.style.display=p.innerText.toLowerCase().includes(q)?"block":"none";
 });
 }
+
+let novamartCart = [];
+
+function order(product) {
+  let existing = novamartCart.find(item => item.name === product);
+
+  if (existing) {
+    existing.quantity++;
+  } else {
+    novamartCart.push({
+      name: product,
+      quantity: 1
+    });
+  }
+
+  updateCart();
+}
+
+function updateCart() {
+  let count = novamartCart.reduce(
+    (total, item) => total + item.quantity, 0
+  );
+
+  document.getElementById("cartCount").textContent = count;
+
+  document.getElementById("cartItems").innerHTML =
+    novamartCart.length
+      ? novamartCart.map(item =>
+          `<p>${item.name} × ${item.quantity}</p>`
+        ).join("")
+      : "Your cart is empty.";
+
+  document.getElementById("cartTotal").textContent =
+    "Price confirmed after supplier quote";
+}
+
 </script>
 </body>
 
