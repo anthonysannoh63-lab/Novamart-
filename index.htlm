@@ -52,12 +52,16 @@ footer{background:#101c35;color:white;text-align:center;padding:25px;margin-top:
 </section>
 
 <section class="products" id="shop">
-<div class="product"><div class="emoji">👕</div><h3>Clothing</h3><p>Fashion for everyone</p><button class="buy" onclick="order('Clothing')">Order</button></div>
-<div class="product"><div class="emoji">👟</div><h3>Shoes</h3><p>Footwear collection</p><button class="buy" onclick="order('Shoes')">Order</button></div>
-<div class="product"><div class="emoji">📱</div><h3>Electronics</h3><p>Useful technology</p><button class="buy" onclick="order('Electronics')">Order</button></div>
-<div class="product"><div class="emoji">👜</div><h3>Bags</h3><p>Style and convenience</p><button class="buy" onclick="order('Bags')">Order</button></div>
-<div class="product"><div class="emoji">⌚</div><h3>Accessories</h3><p>Complete your style</p><button class="buy" onclick="order('Accessories')">Order</button></div>
-<div class="product"><div class="emoji">🏠</div><h3>Home Items</h3><p>Things for your home</p><button class="buy" onclick="order('Home Items')">Order</button></div>
+<div class="product"><div class="emoji">👕</div><h3>Clothing</h3><p>Fashion for
+<p><strong>Price:</strong> Contact us for price</p> everyone</p><button class="buy" onclick="order('Clothing')">Order</button></div>
+<div class="product"><div class="emoji">👟</div><h3>Shoes</h3><p>Footwear
+<p><strong>Price:</strong> Contact us for price</p> collection</p><button class="buy" onclick="order('Shoes')">Order</button></div>
+<div class="product"><div class="emoji">📱</div><h3>Electronics</h3><p>Useful
+ technology</p><button class="buy" onclick="order('Electronics')">Order</button></div>
+<p><strong>Price:</strong> Contact us for price</p>
+<div class="product"><div class="emoji">👜</div><h3>Bags</h3><p>Style and convenience</p><button class="buy" onclick="order('Bags')">Order</button></div><p><strong>Price:</strong> Contact us for price</p>
+<div class="product"><div class="emoji">⌚</div><h3>Accessories</h3><p>Complete your style</p><button class="buy" onclick="order('Accessories')">Order</button></div><p><strong>Price:</strong> Contact us for price</p>
+<div class="product"><div class="emoji">🏠</div><h3>Home Items</h3><p>Things for your home</p><button class="buy" onclick="order('Home Items')">Order</button></div><p><strong>Price:</strong> Contact us for price</p>
 </section>
 <footer id="contact">
 <h3>NOVAMART</h3>
