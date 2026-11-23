@@ -126,6 +126,16 @@ Order on WhatsApp
 </a>
 </section>
 
+<section style="background:white;padding:25px;margin:20px;border-radius:12px;text-align:center">
+<h2>Email NOVAMART</h2>
+<p>Prefer email? Send us your order or enquiry.</p>
+
+<a href="mailto:anthonysannoh63@gmail.com?subject=NOVAMART%20Order&body=Hello%20NOVAMART%2C%20I%20want%20to%20place%20an%20order."
+style="display:inline-block;background:#172744;color:white;padding:14px 25px;border-radius:8px;text-decoration:none;font-weight:bold">
+Order by Email
+</a>
+</section>
+
 </body>
 
 <section id="account" style="background:white;padding:25px;margin:20px;border-radius:12px;text-align:center">
